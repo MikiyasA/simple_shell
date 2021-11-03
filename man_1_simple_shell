@@ -1,0 +1,47 @@
+.TH hsh 1 "November, 2021" "1.0" "hsh General Commands Manual"
+
+.SH NAME
+
+.B simple_shell - hsh
+- command line interpreter
+
+
+.SH SYNOPSIS
+.PP
+.B ./hsh
+
+
+.PP
+.B
+.SH DESCRIPTION
+
+simple\_shell is a command line interpreter. The shell has a prompt($) and it is displayed again each time a command has been executed.
+This is a project made for the ALX software engineering program, project 0x16. C - Simple Shell.
+
+.SH OVERVIEW
+
+Reading from terminal, simple_shell interprets and executes commands.
+
+
+.SH INVOCATION
+
+Compile simple_shell with the GNU Compiler Collection, using gcc with specified flags, as per this example:
+.P
+.RS
+.B $ gcc -Wall -Werror -Wextra -pedantic shell.c -o hsh
+.P
+.RE
+simple_shell can be invocated by typing the command shown below,Note that the prompt ('$') will appear and you will then be in interactive mode to enter commands followed by "enter."
+.P
+.RS
+.B $ ./hsh
+.P
+.RE
+
+
+
+.SH AUTHORS
+.B Benroy Kirwa and Mikiyas Adere
+
+.SH SEE ALSO
+sh
